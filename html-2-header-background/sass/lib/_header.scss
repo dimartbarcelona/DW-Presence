@@ -1,0 +1,14 @@
+/* header */
+#main-header{
+	padding: 0;
+}
+#header-background {
+	width: 100%;
+	max-width: 1280px;
+	/* With padding we get the background to be proportional-responsive.
+	We calc the desired percentage of the height with respect to the width and we apply it to the padding-top.  */
+	padding-top: 29%;
+	margin: 0 auto;
+	background-image: url(images/background-header.jpg);
+	background-size: cover;
+}
