@@ -1,0 +1,59 @@
+/* basical structure */
+#main-header, #main-content, .main-aside, #main-footer {
+  flex-grow: 1;
+  flex-basis: 100%;
+  padding: 10px; }
+
+* {
+  border: 1px solid #000;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fffffa; }
+
+#template-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center; }
+
+.max-width-content {
+  max-width: 1280px;
+  margin: 0 auto; }
+
+@media all and (min-width: 600px) {
+  .main-aside {
+    flex: 1 1 auto; } }
+@media all and (min-width: 800px) {
+  #main-content {
+    flex: 2 0;
+    order: 2; }
+
+  #left-aside {
+    order: 1; }
+
+  #right-aside {
+    order: 3; }
+
+  #main-footer {
+    order: 4; } }
+/* color backgrounds */
+#main-header {
+  background-color: aqua; }
+
+#main-content {
+  background-color: #FFC300; }
+
+#left-asde {
+  background-color: #900C3F; }
+
+#right-aside {
+  background-color: #C70039; }
+
+#main-footer {
+  background-color: #DAF7A6; }
+
+/*# sourceMappingURL=style.css.map */
